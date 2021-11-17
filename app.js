@@ -26,7 +26,7 @@ form.addEventListener('submit', e => {
 
     const timer = setInterval(() => {
         finalScore.textContent = `${output}`;
-        if (output < score) {
+        if (output < percentScore) {
             output++;
         }
         else{
