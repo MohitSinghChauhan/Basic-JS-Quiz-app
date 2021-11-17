@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -37,7 +39,7 @@ header {
 
 .container {
   padding: 20px 80px;
-  font-size: 25px;
+  font-size: 22px;
   background-color: #0274d83d;
 
 }
@@ -53,13 +55,13 @@ label {
     /* display: flex; */
     color: rgb(61, 61, 61);
     margin-top: 10px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 p {
     margin-bottom: 10px;
     margin-top: 45px;
-    font-family: monospace;
+    font-family: 'Ubuntu';
 }
 
 .Primary {
